@@ -28,11 +28,9 @@ Ultimate Budgeter is an Android application designed to help users manage their 
 
 Check out the video demo of the Ultimate Budgeter app in action:
 
-### Video 1: Overview and Usage
-[![Video 1](doc/uni_dramer.mov)](doc/uni_dramer.mov)
+### Video: Overview and Usage
+![Video](https://github.com/MicroKibaco/OSSRH-87194/blob/master/doc/uni_dramer.mov)
 
-### Video 2: Error Handling and Validation
-[![Video 2](doc/uni_dramer.mov)](doc/uni_dramer.mov)
 
 ## Installation
 
