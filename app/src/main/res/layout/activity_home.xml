@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Ultimate Budgeter"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/market_tab"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="38dp"
+        app:tl_indicator_color="@color/black"
+        app:tl_indicator_height="3dp"
+        app:tl_indicator_width="12dp"
+        app:tl_tab_padding="15dp"
+        app:tl_tab_space_equal="false"
+        app:tl_textBold="SELECT"
+        app:tl_textSelectColor="@color/black"
+        app:tl_textUnselectColor="@color/black"
+        app:tl_underline_color="@color/black"
+        app:tl_textsize="14sp"
+        app:tl_underline_gravity="BOTTOM" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

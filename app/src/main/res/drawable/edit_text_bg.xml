@@ -1,0 +1,37 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" /> <!-- 输入框背景颜色 -->
+                    <stroke android:width="1dp" android:color="#000000" /> <!-- 正在输入时的边框颜色 -->
+                    <corners android:radius="12dp" /> <!-- 圆角半径 -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" /> <!-- 输入框背景颜色 -->
+                    <stroke android:width="1dp" android:color="#000000" /> <!-- 正在输入时的边框颜色 -->
+                    <corners android:radius="12dp" /> <!-- 圆角半径 -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" /> <!-- 输入框背景颜色 -->
+                    <stroke android:width="1dp" android:color="#000000" /> <!-- 未输入时的边框颜色 -->
+                    <corners android:radius="12dp" /> <!-- 圆角半径 -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
