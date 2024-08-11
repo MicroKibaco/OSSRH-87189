@@ -32,12 +32,15 @@ Check out the video demo of the Ultimate Budgeter app in action:
 [Video](https://youtu.be/x85piokNt7k?si=uCOkcPL1oCBRbdmt)
 
 
+
 ## Installation
 
 To install the app on your Android device, clone this repository and follow the steps below:
 
 1. Open the project in Android Studio.
 2. Build and run the app on your device.
+3. This QRCode is original source of Apk
+![image](https://github.com/user-attachments/assets/d925e3b7-a13c-4da9-8936-dc7445ea7aa9)
 
 ## Contributions
 
